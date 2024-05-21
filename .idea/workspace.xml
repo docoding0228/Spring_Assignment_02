@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55251a4a-7321-468d-a912-d0fe9c8f99b6" name="Changes" comment="깃 테스트" />
+    <list default="true" id="55251a4a-7321-468d-a912-d0fe9c8f99b6" name="Changes" comment="깃 테스트">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/spring-introduction.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c9d3e6e2-527b-4521-b779-ecde34cc3813.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c9d3e6e2-527b-4521-b779-ecde34cc3813.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-introduction-develop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-introduction-develop/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-introduction-develop/src/main/java/org/sparta/springintroduction/SpringIntroductionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-introduction-develop/src/main/java/org/sparta/springintroduction/SpringIntroductionApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-introduction-develop/src/main/java/org/sparta/springintroduction/dto/ScheduleRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-introduction-develop/src/main/java/org/sparta/springintroduction/dto/ScheduleRequestDto.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +28,28 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/spring-introduction-develop">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-introduction" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-introduction" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-introduction" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -30,12 +59,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/docoding0228/spring_Assignment_2.git",
-    "accountId": "931c16dd-b367-487a-9dd7-52d91a225935"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;docoding0228&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/docoding0228/spring_Assignment_2.git&quot;,
+    &quot;accountId&quot;: &quot;931c16dd-b367-487a-9dd7-52d91a225935&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -48,11 +83,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build spring-introduction-develop.executor": "Run",
+    "Gradle.spring-introduction-develop [bootJar].executor": "Run",
+    "Gradle.spring-introduction-develop [build].executor": "Run",
+    "Gradle.spring-introduction-develop [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SpringIntroductionApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -75,7 +114,73 @@
       <recent name="C:\Users\npng0\.cache\Desktop\내배캠 스프링\spring-introduction-develop\spring-introduction-develop\src\main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.spring-introduction-develop [bootJar]">
+    <configuration name="spring-introduction-develop [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-introduction-develop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-introduction-develop [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-introduction-develop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-introduction-develop [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-introduction-develop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SpringIntroductionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-introduction.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.sparta.springintroduction.SpringIntroductionApplication" />
@@ -91,6 +196,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.spring-introduction-develop [bootJar]" />
+        <item itemvalue="Gradle.spring-introduction-develop [build]" />
+        <item itemvalue="Gradle.spring-introduction-develop [clean]" />
         <item itemvalue="Spring Boot.SpringIntroductionApplication" />
       </list>
     </recent_temporary>
@@ -111,7 +219,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716278774701</updated>
-      <workItem from="1716278775298" duration="4061000" />
+      <workItem from="1716278775298" duration="4757000" />
+      <workItem from="1716283838949" duration="536000" />
+      <workItem from="1716284388312" duration="1393000" />
+      <workItem from="1716285808026" duration="639000" />
+      <workItem from="1716286467530" duration="1925000" />
     </task>
     <task id="LOCAL-00001" summary="깃 테스트">
       <option name="closed" value="true" />
@@ -129,13 +241,57 @@
       <option name="project" value="LOCAL" />
       <updated>1716282853296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="xml 깃 테스트">
+      <option name="closed" value="true" />
+      <created>1716282896912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716282896912</updated>
+    </task>
+    <task id="LOCAL-00004" summary="java 깃 테스트">
+      <option name="closed" value="true" />
+      <created>1716282916244</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716282916244</updated>
+    </task>
+    <task id="LOCAL-00005" summary="실행 깃 테스트">
+      <option name="closed" value="true" />
+      <created>1716282929042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716282929042</updated>
+    </task>
+    <task id="LOCAL-00006" summary="gradlew 깃 테스트">
+      <option name="closed" value="true" />
+      <created>1716282944561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716282944561</updated>
+    </task>
+    <task id="LOCAL-00007" summary="깃 테스트">
+      <option name="closed" value="true" />
+      <created>1716282952813</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716282952813</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="xml 깃 테스트" />
+    <MESSAGE value="java 깃 테스트" />
+    <MESSAGE value="실행 깃 테스트" />
+    <MESSAGE value="gradlew 깃 테스트" />
     <MESSAGE value="깃 테스트" />
     <option name="LAST_COMMIT_MESSAGE" value="깃 테스트" />
   </component>
